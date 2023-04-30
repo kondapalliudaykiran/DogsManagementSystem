@@ -1,4 +1,4 @@
-FROM maven:3.2-jdk-8 AS build
+FROM maven:3.2-jdk-7 AS build
 COPY . .
 RUN mvn clean package -Pprod -DskipTests
 FROM openjdk:8-jre-alpine
