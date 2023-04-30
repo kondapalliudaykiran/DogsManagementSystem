@@ -1,6 +1,10 @@
 package com.example.DMS.Models;
 
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
 @Entity
 public class Dog {
 	
